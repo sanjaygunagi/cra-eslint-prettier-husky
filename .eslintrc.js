@@ -1,12 +1,15 @@
 module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    jest: true,
+  },
   parserOptions: {
-    parser: 'babel-eslint',
-    ecmaVersion: 'latest',
     sourceType: 'module',
   },
   extends: ['plugin:react/recommended', 'plugin:prettier/recommended'],
   plugins: [],
-  //custom rules here
+  // add your custom rules here
   rules: {
     'react/prop-types': 1,
     'react/react-in-jsx-scope': 'off',
