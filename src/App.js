@@ -1,7 +1,9 @@
+/* eslint-disable react/react-in-jsx-scope */
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('kk');
   return (
     <div className="App">
       <header className="App-header">
