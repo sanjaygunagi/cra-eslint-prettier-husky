@@ -55,4 +55,3 @@
     "*.js": "eslint --cache --fix"
   }
 }
-
