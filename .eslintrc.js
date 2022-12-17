@@ -14,5 +14,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'react/prop-types': 1,
+    'react/react-in-jsx-scope': 'off',
+    'jsx-a11y/anchor-is-valid': 0,
   },
 };
