@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App({ namess }) {
+function App({ namessss }) {
   console.log('kk');
   let x = 100;
 
