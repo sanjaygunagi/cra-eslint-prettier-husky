@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import PropTypes from 'prop-types';
+import { Test } from 'components/Test/Test';
 
 function App({ props }) {
   let a = 1000;
@@ -24,6 +25,7 @@ function App({ props }) {
           Learn React
         </a>
       </header>
+      <Test />
     </div>
   );
 }

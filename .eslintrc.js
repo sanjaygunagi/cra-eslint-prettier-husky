@@ -8,7 +8,7 @@ module.exports = {
     sourceType: 'module',
   },
   // extends: ['plugin:react/recommended', 'plugin:prettier/recommended'],
-  extends: ['plugin:react/recommended'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
   plugins: [],
   // custom rules here
   rules: {
