@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import PropTypes from 'prop-types';
 
-function App({}) {
-  // let x = 1000;
+function App() {
+  let x = 1000;
 
+  console.log(x);
   return (
     <div className='App'>
       <header className='App-header'>
