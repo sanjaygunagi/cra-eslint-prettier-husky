@@ -14,5 +14,14 @@ module.exports = {
     'react/prop-types': 1,
     'react/react-in-jsx-scope': 'off',
     'no-console': 1,
+    'no-unused-vars': [
+      'error',
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
+    ],
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 };
