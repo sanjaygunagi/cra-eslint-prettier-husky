@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import PropTypes from 'prop-types';
 
-function App({ namess }) {
+function App({ name }) {
   let x = 100;
 
   return (
