@@ -10,7 +10,7 @@ module.exports = {
   // extends: ['plugin:react/recommended', 'plugin:prettier/recommended'],
   extends: ['plugin:react/recommended'],
   plugins: [],
-  // add your custom rules here
+  // custom rules here
   rules: {
     'react/prop-types': 1,
     'react/react-in-jsx-scope': 'off',

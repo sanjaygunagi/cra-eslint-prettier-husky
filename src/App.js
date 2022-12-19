@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import PropTypes from 'prop-types';
 
-function App() {
+function App({}) {
   let x = 1000;
 
   console.log(x);
