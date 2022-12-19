@@ -1,11 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import PropTypes from 'prop-types';
 
 function App({ namess }) {
-  console.log('kk');
   let x = 100;
-
-  console.log(x);
 
   return (
     <div className="App">
@@ -29,3 +27,7 @@ function App({ namess }) {
 }
 
 export default App;
+
+App.propTypes = {
+  namess: PropTypes.string,
+};
