@@ -3,9 +3,9 @@ import './App.css';
 import PropTypes from 'prop-types';
 
 function App({}) {
-  let x = 1000;
+  let a = 1000;
 
-  console.log(x);
+  console.log(a);
   return (
     <div className='App'>
       <header className='App-header'>
